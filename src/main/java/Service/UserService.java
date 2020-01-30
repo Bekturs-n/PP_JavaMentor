@@ -1,11 +1,9 @@
 package Service;
 
-import DAO.UserDAO;
+import DAO.UserJdbcDAO;
 import Model.User;
-import org.w3c.dom.UserDataHandler;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class UserService {
@@ -65,7 +63,7 @@ public class UserService {
         }
     }
 
-    private static UserDAO getUserDao() {
-        return new UserDAO(getMysqlConnection());
+    private static UserJdbcDAO getUserDao() {
+        return new UserJdbcDAO(getMysqlConnection());
     }
 }

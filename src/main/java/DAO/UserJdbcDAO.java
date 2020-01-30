@@ -9,10 +9,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAO {
+public class UserJdbcDAO {
     private Connection connection;
 
-    public UserDAO(Connection connection) {
+    public UserJdbcDAO(Connection connection) {
         this.connection = connection;
     }
 
