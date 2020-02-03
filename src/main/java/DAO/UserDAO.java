@@ -25,19 +25,21 @@ public class UserDAO {
         }
     }
 
-    public String getNameByidUser(Long id) {
-        String answer = "";
+    public User getUserByidUser(Long id) {
+//        String answer = "";
+        User user = null;
         try {
             Statement stmt = connection.createStatement();
             stmt.execute("select * from firstpp where id = '" + id + "'");
             ResultSet result = stmt.getResultSet();
             result.next();
-            answer = result.getString(2);
+//            answer = result.getString(2);
+            user = new User(result.getString(2), result.getString(3), result.getInt(4));
             result.close();
             stmt.close();
         } catch (SQLException e) {
         }
-        return answer;
+        return user;
     }
 
     public void deleteUser(Long id) {

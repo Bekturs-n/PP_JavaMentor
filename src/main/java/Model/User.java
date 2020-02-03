@@ -21,8 +21,8 @@ public class User {
 
     public User(String name, String suname, Integer age) {
         this.name = name;
-        this.age = age;
         this.suname = suname;
+        this.age = age;
     }
 
     public void setId(Long id) {

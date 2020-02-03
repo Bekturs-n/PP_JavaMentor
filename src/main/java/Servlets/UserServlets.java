@@ -78,7 +78,7 @@ public class UserServlets extends HttpServlet {
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("id");
         UserService userService = UserService.getInstance();
-        String nameOfDelUser = userService.getNameById(Long.parseLong(id));
+        String nameOfDelUser = userService.getNameById(Long.parseLong(id)).getName();
         userService.deleteUsers(Long.parseLong(id));
         req.setAttribute("info", "<h2>" + nameOfDelUser + "\n" + " successfully deleted! </h2><br> <h3><a href = \"/users\"> Back </a></h3>");
         req.getRequestDispatcher("users.jsp").forward(req, resp);
@@ -121,13 +121,13 @@ public class UserServlets extends HttpServlet {
     }
 
     protected String htmlCodeForChange(HttpServletRequest req, UserService userService) {
-        String name = userService.getNameById(Long.parseLong(req.getParameter("id")));
+        User user = userService.getNameById(Long.parseLong(req.getParameter("id")));
 
-        return new String("You will change " + name + "<br> <br><form method=\"post\" action=\"/users\">\n" +
-                "            <input type = \"hidden\" name=\"id\" value = \"" + req.getParameter("id") + "\">\n" +
-                "            New name<br>    <input name=\"name\"> <br>\n" +
-                "            New surname<br> <input name=\"surname\"> <br>\n" +
-                "            New age<br>     <input name=\"age\" type=\"number\"> <br><br>\n" +
+        return new String("You will change " + user.getName() + "<br> <br><form method=\"post\" action=\"/users\">\n" +
+                "            <input type = \"hidden\" name=\"id\" value = \"" + req.getParameter("id") + "\"><br>\n" +
+                "            New name<br>    <input name=\"name\" value = \"" + user.getName() + "\"><br>\n" +
+                "            New surname<br> <input name=\"surname\" value = \"" + user.getSuname() + "\"><br>\n" +
+                "            New age<br>     <input name=\"age\" type=\"number\" value =\""+user.getAge()+"\"><br><br>\n" +
                 "            <button type=\"submit\"> ChangeUser</button>\n" +
                 "            </form>");
     }

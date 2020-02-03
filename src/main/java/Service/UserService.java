@@ -2,10 +2,8 @@ package Service;
 
 import DAO.UserDAO;
 import Model.User;
-import org.w3c.dom.UserDataHandler;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class UserService {
@@ -26,8 +24,8 @@ public class UserService {
         return userService;
     }
 
-    public String getNameById(Long id){
-        return getUserDao().getNameByidUser(id);
+    public User getNameById(Long id){
+        return getUserDao().getUserByidUser(id);
     }
 
     public void deleteUsers(Long id){

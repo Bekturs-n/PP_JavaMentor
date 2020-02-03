@@ -6,12 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="" />
+    <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/UserServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/UserServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/UserServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/UserServlets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/UserService.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -29,8 +44,10 @@
   </component>
   <component name="ProjectId" id="1Wq6GLEKidMgD2wUVJJyCNQOrSA" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -136,10 +153,24 @@
       <workItem from="1580294649491" duration="320000" />
       <workItem from="1580387690090" duration="141000" />
       <workItem from="1580388674378" duration="506000" />
+      <workItem from="1580729566501" duration="1539000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
