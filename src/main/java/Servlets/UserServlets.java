@@ -51,7 +51,7 @@ public class UserServlets extends HttpServlet {
         resp.getWriter().println(req.getParameter("method"));
         UserService userService = UserService.getInstance();
         String id = req.getParameter("id");
-        if (changeParameter(req)) {
+        if (checkParameter(req)) {
             User user = new User(req.getParameter("name"), req.getParameter("surname"), Integer.parseInt(req.getParameter("age")));
             userService.changeData(Long.parseLong(id), user);
             req.setAttribute("secondColumn", "");
@@ -132,7 +132,7 @@ public class UserServlets extends HttpServlet {
                 "            </form>");
     }
 
-    private boolean changeParameter(HttpServletRequest req) {
+    private boolean checkParameter(HttpServletRequest req) {
         if (req.getParameter("name").isEmpty() && req.getParameter("surname").isEmpty() && req.getParameter("age").isEmpty()) {
             return false;
         }
