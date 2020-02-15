@@ -1,9 +1,10 @@
 package Model;
 
 import javax.persistence.*;
+import javax.persistence.Entity;
 
 @Entity
-@Table(name = "users")
+@Table(name = "User")
 public class User {
 
     @Id
