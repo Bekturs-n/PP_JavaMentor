@@ -18,11 +18,9 @@ public class UserServlets extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String message = "";
-        resp.getWriter().println(req.getParameter("method"));
         String trUsers = "All Users";
         String trAddUp = "Add new Users";
         UserService userService = UserService.getInstance();
-        System.out.println("Here");
         if (req.getParameter("method") == null) {
             if (userService.getAllUsers() != null) {
                 message = formatUsers(userService);
@@ -30,10 +28,8 @@ public class UserServlets extends HttpServlet {
                 message = "<h2> No users in DataBase";
             }
         } else if (req.getParameter("method").equals("delete")) {
-            System.out.println("True");
             doDelete(req, resp);
         } else if (req.getParameter("method").equals("change")) {
-            System.out.println("True");
             message = htmlCodeForChange(req, userService);
             trUsers = "Change User Data";
         } else if (req.getParameter("method").equals("put")){
@@ -48,7 +44,6 @@ public class UserServlets extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println(req.getParameter("method"));
         UserService userService = UserService.getInstance();
         String id = req.getParameter("id");
         if (changeParameter(req)) {
