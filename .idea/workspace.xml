@@ -7,19 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/UserServiceHibernate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/UserServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/UserServlets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/UserServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/UserServlets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlets/UserServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlets/UserServlets.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +159,7 @@
       <workItem from="1580735447814" duration="1753000" />
       <workItem from="1580978484457" duration="246000" />
       <workItem from="1581698027423" duration="180000" />
-      <workItem from="1581698463842" duration="6871000" />
+      <workItem from="1581698463842" duration="8047000" />
     </task>
     <servers />
   </component>
