@@ -6,19 +6,19 @@ import javax.persistence.Entity;
 @Entity
 @Table(name = "User")
 public class User {
-    
+
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name  = "name")
+    @Column(name = "name")
     private String name;
 
-    @Column (name = "suname")
+    @Column(name = "suname")
     private String suname;
 
-    @Column (name = "age")
+    @Column(name = "age")
     private Integer age;
 
     public User() {

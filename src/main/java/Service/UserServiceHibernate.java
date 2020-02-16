@@ -17,36 +17,36 @@ public class UserServiceHibernate {
         this.sessionFactory = sessionFactory;
     }
 
-    public static UserServiceHibernate getInstance(){
-        if(userServiceHibernate == null){
+    public static UserServiceHibernate getInstance() {
+        if (userServiceHibernate == null) {
             userServiceHibernate = new UserServiceHibernate(DBHelper.getSessionFactory());
         }
         return userServiceHibernate;
     }
 
-    public boolean addUsers(User user){
+    public boolean addUsers(User user) {
         UserHibernateDAO userHibernateDAO = new UserHibernateDAO(sessionFactory.openSession());
         userHibernateDAO.addUser(user);
         return true;
     }
 
-    public List<User> getAllUser(){
+    public List<User> getAllUser() {
         return new UserHibernateDAO(sessionFactory.openSession()).getAllUsers();
     }
 
-    public String getNameById(Long id){
+    public String getNameById(Long id) {
         return new UserHibernateDAO(sessionFactory.openSession()).getUserById(id).getName();
     }
 
-    public User getUserByID(Long id){
+    public User getUserByID(Long id) {
         return new UserHibernateDAO(sessionFactory.openSession()).getUserById(id);
     }
 
-    public void changeUserData(Long id, User user){
+    public void changeUserData(Long id, User user) {
         new UserHibernateDAO(sessionFactory.openSession()).updateUser(id, user);
     }
 
-    public void deleteUser(Long id){
+    public void deleteUser(Long id) {
         new UserHibernateDAO(sessionFactory.openSession()).deleteUser(id);
     }
 

@@ -9,30 +9,11 @@ import java.util.List;
 public class UserHibernateDAO {
     private Session session;
 
-    public UserHibernateDAO(Session session){
+    public UserHibernateDAO(Session session) {
         this.session = session;
     }
 
-    public void addUser(User user){
-        Transaction  transaction = session.beginTransaction();
-        session.save(user);
-        transaction.commit();
-        session.close();
-    }
-
-    public List<User> getAllUsers(){
-        Transaction transaction = session.beginTransaction();
-        List<User> list = session.createQuery("from User", User.class).getResultList();
-        transaction.commit();
-        return list;
-    }
-
-    public User getUserById(Long id){
-        Transaction transaction = session.beginTransaction();
-        return session.load(User.class, id);
-    }
-
-    public void updateUser(Long id, User user){
+    public void updateUser(Long id, User user) {
         Transaction transaction = session.beginTransaction();
         User user1 = session.load(User.class, id);
         user1.setSuname(user.getSuname());
@@ -43,7 +24,26 @@ public class UserHibernateDAO {
         session.close();
     }
 
-    public void deleteUser(Long id){
+    public User getUserById(Long id) {
+        Transaction transaction = session.beginTransaction();
+        return session.load(User.class, id);
+    }
+
+    public void addUser(User user) {
+        Transaction transaction = session.beginTransaction();
+        session.save(user);
+        transaction.commit();
+        session.close();
+    }
+
+    public List<User> getAllUsers() {
+        Transaction transaction = session.beginTransaction();
+        List<User> list = session.createQuery("from User", User.class).getResultList();
+        transaction.commit();
+        return list;
+    }
+
+    public void deleteUser(Long id) {
         Transaction transaction = session.beginTransaction();
         User user = session.load(User.class, id);
         session.delete(user);

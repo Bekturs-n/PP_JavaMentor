@@ -13,30 +13,30 @@ public class UserService {
     private UserService() {
     }
 
-    public void changeData(Long id, User user){
+    public void changeData(Long id, User user) {
         getUserDao().ubdateUser(id, user);
     }
 
-    public static UserService getInstance(){
-        if(userService == null){
+    public static UserService getInstance() {
+        if (userService == null) {
             userService = new UserService();
         }
         return userService;
     }
 
-    public String getNameById(Long id){
+    public String getNameById(Long id) {
         return getUserDao().getNameByidUser(id);
     }
 
-    public void deleteUsers(Long id){
+    public void deleteUsers(Long id) {
         getUserDao().deleteUser(id);
     }
 
-    public List<User> getAllUsers(){
+    public List<User> getAllUsers() {
         return getUserDao().getUsers();
     }
 
-    public void addUser(User user){
+    public void addUser(User user) {
         getUserDao().addUser(user);
     }
 

@@ -16,6 +16,7 @@ public class UserJdbcDAO implements UserDAO{
         this.connection = connection;
     }
 
+    @Override
     public void ubdateUser(Long id, User user) {
         try {
             Statement stmt = connection.createStatement();
@@ -25,6 +26,7 @@ public class UserJdbcDAO implements UserDAO{
         }
     }
 
+    @Override
     public String getNameByidUser(Long id) {
         String answer = "";
         try {
@@ -40,6 +42,7 @@ public class UserJdbcDAO implements UserDAO{
         return answer;
     }
 
+    @Override
     public void deleteUser(Long id) {
         try {
             Statement stmt = connection.createStatement();
@@ -50,6 +53,7 @@ public class UserJdbcDAO implements UserDAO{
         }
     }
 
+    @Override
     public List<User> getUsers() {
         List<User> list = new ArrayList<>();
         Statement stmt = null;
@@ -70,6 +74,7 @@ public class UserJdbcDAO implements UserDAO{
         return list;
     }
 
+    @Override
     public void addUser(User user) {
         Statement stmt = null;
         try {
