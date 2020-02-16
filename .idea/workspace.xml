@@ -6,15 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserJdbcDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserJdbcDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserServiceHibernate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserServiceHibernate.java" afterDir="false" />
-    </list>
+    <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +161,7 @@
       <workItem from="1581757992664" duration="2146000" />
       <workItem from="1581767974483" duration="1197000" />
       <workItem from="1581845770383" duration="732000" />
+      <workItem from="1581846690893" duration="158000" />
     </task>
     <servers />
   </component>
