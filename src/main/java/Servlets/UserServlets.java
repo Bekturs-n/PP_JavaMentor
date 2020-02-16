@@ -46,12 +46,11 @@ public class UserServlets extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println(req.getParameter("method"));
-        UserService userService = UserService.getInstance();
+        UserServiceHibernate userService = UserServiceHibernate.getInstance();
         String id = req.getParameter("id");
         if (checkParameter(req)) {
             User user = new User(req.getParameter("name"), req.getParameter("surname"), Integer.parseInt(req.getParameter("age")));
-            userService.changeData(Long.parseLong(id), user);
+            userService.changeUserData(Long.parseLong(id), user);
             req.setAttribute("secondColumn", "");
             req.setAttribute("info", "Success! <br> <h3><a href = \"/users\"> Back </a></h3>");
             req.getRequestDispatcher("users.jsp").forward(req, resp);
@@ -75,9 +74,9 @@ public class UserServlets extends HttpServlet {
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String id = req.getParameter("id");
-        UserService userService = UserService.getInstance();
+        UserServiceHibernate userService = UserServiceHibernate.getInstance();
         String nameOfDelUser = userService.getNameById(Long.parseLong(id));
-        userService.deleteUsers(Long.parseLong(id));
+        userService.deleteUser(Long.parseLong(id));
         req.setAttribute("info", "<h2>" + nameOfDelUser + "\n" + " successfully deleted! </h2><br> <h3><a href = \"/users\"> Back </a></h3>");
         req.getRequestDispatcher("users.jsp").forward(req, resp);
     }
@@ -118,13 +117,13 @@ public class UserServlets extends HttpServlet {
     }
 
     protected String htmlCodeForChange(HttpServletRequest req, UserServiceHibernate userService) {
-        String name = userService.getNameById(Long.parseLong(req.getParameter("id")));
+        User user = userService.getUserByID(Long.parseLong(req.getParameter("id")));
 
-        return new String("You will change " + name + "<br> <br><form method=\"post\" action=\"/users\">\n" +
-                "            <input type = \"hidden\" name=\"id\" value = \"" + req.getParameter("id") + "\">\n" +
-                "            New name<br>    <input name=\"name\"> <br>\n" +
-                "            New surname<br> <input name=\"surname\"> <br>\n" +
-                "            New age<br>     <input name=\"age\" type=\"number\"> <br><br>\n" +
+        return new String("You will change " + user.getName() + "<br> <br><form method=\"post\" action=\"/users\">\n" +
+                "            <input type = \"hidden\" name=\"id\" value = \"" + req.getParameter("id") + "\"><br>\n" +
+                "            New name<br>    <input name=\"name\" value = \"" + user.getName() + "\"><br>\n" +
+                "            New surname<br> <input name=\"surname\" value = \"" + user.getSuname() + "\"><br>\n" +
+                "            New age<br>     <input name=\"age\" type=\"number\" value =\""+user.getAge()+"\"><br><br>\n" +
                 "            <button type=\"submit\"> ChangeUser</button>\n" +
                 "            </form>");
     }

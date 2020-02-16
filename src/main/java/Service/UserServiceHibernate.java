@@ -38,4 +38,16 @@ public class UserServiceHibernate {
         return new UserHibernateDAO(sessionFactory.openSession()).getUserById(id).getName();
     }
 
+    public User getUserByID(Long id){
+        return new UserHibernateDAO(sessionFactory.openSession()).getUserById(id);
+    }
+
+    public void changeUserData(Long id, User user){
+        new UserHibernateDAO(sessionFactory.openSession()).updateUser(id, user);
+    }
+
+    public void deleteUser(Long id){
+        new UserHibernateDAO(sessionFactory.openSession()).deleteUser(id);
+    }
+
 }
