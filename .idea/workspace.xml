@@ -6,7 +6,19 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="" />
+    <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dao.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserJdbcDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserJdbcDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserJdbcDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserJdbcDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/User.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +174,8 @@
       <workItem from="1581767974483" duration="1197000" />
       <workItem from="1581845770383" duration="732000" />
       <workItem from="1581846690893" duration="158000" />
+      <workItem from="1581849610521" duration="630000" />
+      <workItem from="1581850431721" duration="5445000" />
     </task>
     <servers />
   </component>
