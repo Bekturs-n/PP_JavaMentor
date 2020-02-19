@@ -7,9 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/DeleteServlets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/EditServlets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/UserServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/UserServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserServiceHibernate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserServiceHibernate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/UserServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/UserServlets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servlets/UserServlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlets/UserServlets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/users.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +37,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -51,6 +67,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\JAVA_PP\READY_READY\First_pp_g\web\WEB-INF" />
+      <recent name="F:\JAVA_PP\READY_READY\First_pp_g\web" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,6 +188,8 @@
       <workItem from="1581767974483" duration="1197000" />
       <workItem from="1581846584242" duration="31000" />
       <workItem from="1581848606427" duration="944000" />
+      <workItem from="1581927871628" duration="12641000" />
+      <workItem from="1582011465019" duration="19295000" />
     </task>
     <servers />
   </component>

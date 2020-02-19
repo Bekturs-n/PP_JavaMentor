@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
+
   <a href="/users"> Go to Users </a>
+
   </body>
 </html>

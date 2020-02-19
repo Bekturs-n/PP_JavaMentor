@@ -2,51 +2,43 @@ package Service;
 
 import DAO.UserHibernateDAO;
 import Model.User;
-import org.hibernate.SessionFactory;
-import util.DBHelper;
 
 import java.util.List;
 
-public class UserServiceHibernate {
+public class UserServiceImpl implements UserService {
 
-    private static UserServiceHibernate userServiceHibernate;
-
-    private SessionFactory sessionFactory;
-
-    private UserServiceHibernate() {
+    public UserServiceImpl() {
     }
 
-    public static UserServiceHibernate getInstance() {
-        if (userServiceHibernate == null) {
-            userServiceHibernate = new UserServiceHibernate();
-        }
-        return userServiceHibernate;
-    }
-
+    @Override
     public boolean addUsers(User user) {
         UserHibernateDAO userHibernateDAO = new UserHibernateDAO();
         userHibernateDAO.addUser(user);
         return true;
     }
 
+    @Override
     public List<User> getAllUser() {
         return new UserHibernateDAO().getAllUsers();
     }
 
+    @Override
     public String getNameById(Long id) {
         return new UserHibernateDAO().getUserById(id).getName();
     }
 
+    @Override
     public User getUserByID(Long id) {
         return new UserHibernateDAO().getUserById(id);
     }
 
+    @Override
     public void changeUserData(Long id, User user) {
         new UserHibernateDAO().updateUser(id, user);
     }
 
+    @Override
     public void deleteUser(Long id) {
         new UserHibernateDAO().deleteUser(id);
     }
-
 }
