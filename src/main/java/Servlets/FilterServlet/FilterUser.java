@@ -12,7 +12,7 @@ import java.io.IOException;
 
 @WebFilter(filterName = "FilterFirst",
         urlPatterns = {"/user/*"})
-public class FilerUser implements Filter {
+public class FilterUser implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 

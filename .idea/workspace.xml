@@ -7,114 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa8218ef-8f95-4dfe-8370-6eff8ac3cf40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserDaoFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/FilterServlet/FilerUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/FilterServlet/FilterAdmin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/FilterServlet/FilterAuth.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/FilterServlet/FilterLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/Servlets/AdminServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/Servlets/DeleteServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/Servlets/EditServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/Servlets/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/Servlets/OutServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/Servlets/UserServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/dao.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/util/PropertyReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/byte-buddy-1.10.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/hibernate-core-5.4.10.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/hibernate-entitymanager-5.4.10.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/jandex-2.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/FilterServlet/FilerUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/FilterServlet/FilterAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/FilterServlet/FilterAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/FilterServlet/FilterLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Servlets/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Servlets/OutServlets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Servlets/Servlets/UserServlets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dao.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DAO/UserDaoFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/FilterServlet/FilerUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/FilterServlet/FilterAdmin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/FilterServlet/FilterAuth.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/FilterServlet/FilterLogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/Servlets/AdminServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/Servlets/DeleteServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/Servlets/EditServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/Servlets/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/Servlets/OutServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Servlets/Servlets/UserServlets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/dao.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hibernate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/util/PropertyReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/user.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/First_pp_g_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/First_pp_g_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_pp_g.iml" beforeDir="false" afterPath="$PROJECT_DIR$/First_pp_g.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserJdbcDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/DAO/UserJdbcDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Service/UserServiceHibernate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/DeleteServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/EditServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/Servlets/UserServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/util/DBHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/classes/util/DBHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/WEB-INF/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/First_pp_g_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserHibernateDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/UserJdbcDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/UserJdbcDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserServiceHibernate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/UserServiceJDBC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/DeleteServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Servlets/DeleteServlets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/EditServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Servlets/EditServlets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/UserServlets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/Servlets/AdminServlets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DAO/UserJdbcDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DAO/UserJdbcDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Service/UserServiceHibernate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlets/DeleteServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlets/EditServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlets/UserServlets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/DBHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/DBHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servlets/FilterServlet/FilerUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlets/FilterServlet/FilterUser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -292,6 +186,7 @@
       <workItem from="1582359798543" duration="14767000" />
       <workItem from="1582464656301" duration="2463000" />
       <workItem from="1582534884888" duration="11258000" />
+      <workItem from="1582552274296" duration="63000" />
     </task>
     <servers />
   </component>
