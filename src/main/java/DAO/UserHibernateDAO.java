@@ -9,11 +9,11 @@ import util.DBHelper;
 
 import java.util.List;
 
-public class UserHibernateDAO implements UserDAO{
+public class UserHibernateDAO implements UserDAO {
     private SessionFactory sessionFactory;
 
-    public UserHibernateDAO(){
-        sessionFactory = DBHelper.getSessionFactory()
+    public UserHibernateDAO() {
+        sessionFactory = DBHelper.getInstance().getConfiguration();
     }
 
     @Override
@@ -40,9 +40,7 @@ public class UserHibernateDAO implements UserDAO{
     @Override
     public User getUserById(Long id) {
         Session session = sessionFactory.openSession();
-        User user = session.load(User.class, id);
-        session.close();
-        return user;
+        return session.load(User.class, id);
     }
 
     @Override
@@ -51,7 +49,7 @@ public class UserHibernateDAO implements UserDAO{
         Transaction transaction = session.beginTransaction();
         try {
             User user1 = session.load(User.class, id);
-            user1.setSuname(user.getSuname());
+            user1.setPassword(user.getPassword());
             user1.setAge(user.getAge());
             user1.setName(user.getName());
             session.update(user1);
@@ -76,7 +74,3 @@ public class UserHibernateDAO implements UserDAO{
         }
     }
 }
-
-//    public UserHibernateDAO(SessionFactory sessionFactory) {
-//        this.sessionFactory = sessionFactory;
-//    }

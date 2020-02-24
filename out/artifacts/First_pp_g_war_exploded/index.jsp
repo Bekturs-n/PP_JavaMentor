@@ -7,12 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-
-  <a href="/users"> Go to Users </a>
-
-  </body>
+</head>
+<body>
+<%
+    ((HttpServletResponse) response).sendRedirect("/login");
+%>
+</body>
 </html>

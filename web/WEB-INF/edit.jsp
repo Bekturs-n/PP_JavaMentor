@@ -9,6 +9,23 @@
 <html>
 <head>
     <title>Edit</title>
+    <style>
+        div.wrapper {
+            width: 450px;
+        }
+
+        div.left_block {
+            float: left;
+            width: 30%;
+            height: 30px;
+        }
+
+        div.right_block {
+            float: right;
+            width: 30%;
+            height: 30px;
+        }
+    </style>
 </head>
 <body>
 <table>
@@ -16,7 +33,7 @@
         <td>
             <h3>
                 <%
-                    User user = (User) request.getAttribute("users");
+                    User user = (User) request.getAttribute("user");
                 %>
                 You will change <%= user.getName()%>
             </h3>
@@ -24,12 +41,22 @@
     </tr>
     <tr>
         <td>
-            <form method="POST" action="/edit" >
-                New name:<input name="name" value = "<%= user.getName()%>"><br>
-                New surname:<input name="surname" value = "<%= user.getSuname()%>"><br>
-                New age: <input name ="age" value="<%= user.getAge()%>"><br>
-                <input name ="id" type="hidden" value="<%=user.getId()%>">
-                <button type="submit">Change</button>
+            <form method="POST" action="/admin/edit">
+                <div class="wrapper">
+                    <div class="left_block">
+                        New name(login):<br>
+                        New password:<br>
+                        New age:<br>
+                    </div>
+                    <div class="right_block">
+                        <input name="name" value="<%= user.getName()%>" type="email"><br>
+                        <input name="surname" value="<%= user.getPassword()%>" type="password"><br>
+                        <input name="age" value="<%= user.getAge()%>"><br>
+                        <input name="id" type="hidden" value="<%=user.getId()%>">
+                        <br>
+                        <button type="submit">Change</button>
+                    </div>
+                </div>
             </form>
         </td>
     </tr>

@@ -6,35 +6,45 @@ import javax.persistence.Entity;
 @Entity
 @Table(name = "User")
 public class User {
-    
+
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name  = "name")
+    @Column(name = "name")
     private String name;
 
-    @Column (name = "suname")
-    private String suname;
+    @Column(name = "password")
+    private String password;
 
-    @Column (name = "age")
+    @Column(name = "age")
     private Integer age;
+
+    @Column(name = "role")
+    private String role;
 
     public User() {
     }
 
-    public User(Long id, String name, String suname, Integer age) {
-        this.id = id;
+    public User(String name, String password, Integer age, String role) {
         this.name = name;
+        this.password = password;
         this.age = age;
-        this.suname = suname;
+        this.role = role;
     }
 
-    public User(String name, String suname, Integer age) {
+    public User(Long id, String name, String password, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.password = password;
+        this.age = age;
+    }
+
+    public User(String name, String password, Integer age) {
         this.name = name;
         this.age = age;
-        this.suname = suname;
+        this.password = password;
     }
 
     public void setId(Long id) {
@@ -46,15 +56,27 @@ public class User {
     }
 
     public void setAge(Integer age) {
-        this.age = age;
+        if (age > 0 && age < 100) {
+            this.age = age;
+        } else {
+            this.age = 18;
+        }
     }
 
-    public void setSuname(String suname) {
-        this.suname = suname;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public Long getId() {
         return id;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
     public String getName() {
@@ -65,7 +87,7 @@ public class User {
         return age;
     }
 
-    public String getSuname() {
-        return suname;
+    public String getPassword() {
+        return password;
     }
 }

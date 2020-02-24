@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UserService {
 
-    public boolean addUsers(User user);
+    public void addUsers(User user);
 
     public List<User> getAllUser();
 
@@ -17,4 +17,10 @@ public interface UserService {
     public void changeUserData(Long id, User user);
 
     public void deleteUser(Long id);
+
+    public boolean validateUser(String login, String password);
+
+    public User getUserByName(String name);
+
+    public boolean nameIsEmpty(String login);
 }
